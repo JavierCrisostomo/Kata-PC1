@@ -11,4 +11,7 @@ describe Calculator do
   it 'should return 3 on 1,2' do
     Calculator.add('1,2').must_equal 3
   end
+  it 'should return 6 on 1,2,3' do
+    Calculator.add('1,2,3').must_equal 6
+  end
 end
